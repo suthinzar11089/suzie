@@ -1,0 +1,90 @@
+a.nav-link:hover{
+	border-bottom: 3px solid rgb(150, 166, 133);
+}
+#words{
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Patrick Hand', cursive;
+
+}
+.cat{
+	filter: drop-shadow(2px 2px 5px white);
+	height: 50vh;
+}
+#first, #information, #service{
+	/*background: rgb(69, 71, 56);*/
+	background-image: url(pics/banner.png);
+	background-size: 100% 100%;
+	background-repeat: no repeat;
+}
+#second, #samples{
+	/*background: rgb(207, 212, 174);*/
+	background-image: url(pics/second-banner.png);
+	background-size: 100% 100%;
+	background-repeat: no repeat;
+	
+}
+/*#header{
+	background: rgb(86, 99, 71);
+}*/
+.btn{
+	cursor: pointer;
+	position: relative;
+	padding: 10px 40px;
+}
+#second-button{
+	display: flex;
+	justify-content: center;
+
+}
+#cards{
+	height: 40vh;
+	border-radius: 30px;
+}
+#footer{
+   background: rgb(51, 54, 43);
+}
+#icon{
+	font-size: 30px;
+   cursor: pointer;
+  /* color: white;*/
+}
+.button{
+	margin-right: 20px;
+}
+#usp{
+	background: rgb(207, 212, 174);
+	height: 30vh;
+}
+#information, #samples, #service{
+	height: 40vh;
+}
+
+.logo{
+	width: 60px;
+	border-radius: 20px;
+}
+.myslef{
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Patrick Hand', cursive;
+	display: flex;
+}
+#service{
+	height: 70vh;
+}
+#me{
+	border: solid 2px black;
+	border-radius: 30px;
+}
+#service, #usp{
+   margin-bottom: 1em;
+}
+#abtme{
+	text-align: center;
+	text-shadow: 3px 3px 3px rgb(172, 181, 145);
+	font-size: 30px;
+}
+#footer-text{
+	font-size: 20px;
+}
